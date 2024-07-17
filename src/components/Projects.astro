@@ -1,0 +1,66 @@
+---
+import Container from "./Container.astro"
+
+---
+
+<div id="latest-projects" class="pt-[100px]">
+  <Container>
+    <h1 class="text-[30px] md:text-[42px] font-bold relative before:absolute text-slate-900 before:content-[''] before:bottom-0 before:left-[38%] before:w-[100px] before:h-[2px] before:bg-sec-color after:absolute  after:content-[''] after:bottom-[-4px] after:left-1/2 after:w-[10px] after:h-[10px] after:rounded-full after:bg-sec-color  w-fit mx-auto">LATEST <span class="text-main-color">PROJECTS</span></h1>
+      <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-[50px]">
+        <div class="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100  bg-opacity-50 shadow-2xl shadow-gray-600/10">
+          <div class="relative overflow-hidden rounded-xl">
+            <img src="/Emerald.jpg"
+            alt="art cover" loading="lazy" width="1000" height="667" class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"/>
+          </div>
+          <div class="mt-6 relative">
+            <h3 class="text-2xl font-semibold text-gray-800 ">
+              Emerald Egypt.
+            </h3>
+            <p class="mt-6 mb-8 text-gray-600 ">
+              Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus...
+            </p>
+            <a class="inline-block" target="_blank" href="https://ee-fm.org/">
+              <span class="text-info ">Read more</span>
+            </a>
+          </div>
+          
+        </div>
+        <div class="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100  bg-opacity-50 shadow-2xl shadow-gray-600/10">
+          <div class="relative overflow-hidden rounded-xl">
+            <img src="/craftscene.png"
+            alt="art cover" loading="lazy" width="1000" height="667" class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"/>
+          </div>
+          <div class="mt-6 relative">
+            <h3 class="text-2xl font-semibold text-gray-800 ">
+              Craft Scene.
+            </h3>
+            <p class="mt-6 mb-8 text-gray-600 ">
+              Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus...
+            </p>
+            <a class="inline-block" target="_blank" href="https://craftsceneapp.com/">
+              <span class="text-info ">Read more</span>
+            </a>
+          </div>
+          
+        </div>
+        <div class="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100  bg-opacity-50 shadow-2xl shadow-gray-600/10">
+          <div class="relative overflow-hidden rounded-xl">
+            <img src="/coming_soon.jpg"
+            alt="art cover" loading="lazy" width="1000" height="667" class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"/>
+          </div>
+          <div class="mt-6 relative">
+            <h3 class="text-2xl font-semibold text-gray-800 flex items-center gap-2 ">
+              Second Home <span class="text-lg text-main-color pt-1">(Coming soon)</span>
+            </h3>
+            <p class="mt-6 mb-8 text-gray-600 ">
+              Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus...
+            </p>
+            <a class="inline-block" href="#">
+              <span class="text-info ">Read more</span>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+  </Container>
+</div>
